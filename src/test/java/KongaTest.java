@@ -47,10 +47,10 @@ public class KongaTest {
         // Verifying that the user can login with valid credentials
 
         // Finding the Email Address field and entering a valid Email Address
-        driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("example@gmail.com");
+        driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("ayokunnumiadedoyin@gmail.com");
 
         // Locating the Password field and enter a valid Password
-        driver.findElement(By.id("password")).sendKeys("password");
+        driver.findElement(By.id("password")).sendKeys("Arikeade");
 
         // Clicking the Login button
         driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[4]/section/section/aside/div[2]/div/form/div[3]/button")).click();
